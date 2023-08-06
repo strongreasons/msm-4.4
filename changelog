@@ -1,0 +1,15 @@
+<b><#selectbg_g>Aug 07,2023</#></b>
+
+  <*> Bringup TheOneMemory</*>
+  <*> Add support KernelSU</*>
+  <*> Based from LA.UM.9.2.r1-03700-SDMxx0.0</*>
+  <*> More Changes, and Improvements</*>
+
+
+
+<b><#selectbg_g>NOTES :</#></b>
+
+  <*> KernelSU is enabled by default and will disabled automatically if Magisk has been installed, If u don't want KernelSU, just disable it</*>
+  <*> Recommended to use KernelSU Manager v0.6.2 and above</*>
+  <*> Kernel need sometimes to settle</*>
+  <*> For better results, Tweak with Kernel Manager or use Spectrum.</*>
