@@ -121,11 +121,8 @@ static int devfreq_simple_ondemand_handler(struct devfreq *devfreq,
 		break;
 
 	case DEVFREQ_GOV_INTERVAL:
-		devfreq_interval_update(devfreq, (unsigned int *)data, false);
+		devfreq_interval_update(devfreq, (unsigned int *)data);
 		break;
-		
-	case DEVFREQ_GOV_IDLE_INTERVAL:
-		devfreq_interval_update(devfreq, (unsigned int *)data, true);
 
 	case DEVFREQ_GOV_SUSPEND:
 		devfreq_monitor_suspend(devfreq);
