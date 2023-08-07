@@ -26,8 +26,6 @@ enum dev_pm_opp_event {
 
 #if defined(CONFIG_PM_OPP)
 
-void dev_pm_opp_put(struct dev_pm_opp *opp);
-
 unsigned long dev_pm_opp_get_voltage(struct dev_pm_opp *opp);
 
 unsigned long dev_pm_opp_get_freq(struct dev_pm_opp *opp);
@@ -68,7 +66,6 @@ int dev_pm_opp_set_regulator(struct device *dev, const char *name);
 void dev_pm_opp_put_regulator(struct device *dev);
 int dev_pm_opp_set_rate(struct device *dev, unsigned long target_freq);
 #else
-static inline void dev_pm_opp_put(struct dev_pm_opp *opp) {}
 static inline unsigned long dev_pm_opp_get_voltage(struct dev_pm_opp *opp)
 {
 	return 0;
