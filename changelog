@@ -1,15 +1,24 @@
-<b><#selectbg_g>Sep 14,2023</#></b>
+<b><#selectbg_g>Sep 15,2023</#></b>
 
-  <*> KernelSU v0.6.7 support</*>
+  <*> KernelSU v0.6.7</*>
+  <*> Disable clocks for crypto engine</*>
+  <*> Fix to avoid NETDEV WATCHDOG warning logs</*>
+  <*> Fix reverse boost for DC path</*>
+  <*> Fix memory leaks in sps_register_bam_device</*>
+  <*> Fix memory leaks in probe and destroy</*>
   <*> Updates Little bit for Crypto</*>
-  <*> Fix Bootloop on A13 ROMs</*>
-  <*> Reverted "Boost when open app" because too high drain and overheat</*>
   <*> More Changes, and improvements.</*>
 
 
 
 
 <b><#selectbg_g>NOTES :</#></b>
-  <*> Recommended to use kernelsu manager v0.6.7</*>
-  <*> If There is an internal problem with your device warning show, just click ok and ignore</*>
+  <*> Recommended to use KernelSU manager v0.6.7</*>
   <*> Kernel need sometimes to settle.</*>
+
+
+
+
+
+<b><#selectbg_g>AROMA installer by :</#></b>
+  <*> Ryuuji @ItsRyuujiX</*>
