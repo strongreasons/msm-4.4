@@ -1,19 +1,23 @@
-<b><#selectbg_g>Sep 15,2023</#></b>
+<b><#selectbg_g>Sep 23,2023</#></b>
 
-  <*> KernelSU v0.6.7</*>
+  <*> KernelSU update to v0.6.8</*>
   <*> Disable clocks for crypto engine</*>
   <*> Fix to avoid NETDEV WATCHDOG warning logs</*>
   <*> Fix reverse boost for DC path</*>
   <*> Fix memory leaks in sps_register_bam_device</*>
   <*> Fix memory leaks in probe and destroy</*>
-  <*> Updates Little bit for Crypto</*>
+  <*> icnss: Hack suspend and Nuke debugging</*>
+  <*> ufs: disable clock scaling</*>
+  <*> ufs: Remove 10 ms CPU idle latency unvote timeout</*>
+  <*> ufs: Only apply pm_qos to the CPU servicing UFS interrupts</*>
+  <*> msm_adreno_tz: Decrease busy time ceiling</*>
   <*> More Changes, and improvements.</*>
 
 
 
 
 <b><#selectbg_g>NOTES :</#></b>
-  <*> Recommended to use KernelSU manager v0.6.7</*>
+  <*> Recommended to use KernelSU manager v0.6.8</*>
   <*> Kernel need sometimes to settle.</*>
 
 
