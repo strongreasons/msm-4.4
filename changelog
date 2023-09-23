@@ -1,6 +1,7 @@
 <b><#selectbg_g>Sep 23,2023</#></b>
 
   <*> KernelSU update to v0.6.8</*>
+  <*> Overclock: CPU 1.8+2.2GHz + GPU 585MHz</*>
   <*> Disable clocks for crypto engine</*>
   <*> Fix to avoid NETDEV WATCHDOG warning logs</*>
   <*> Fix reverse boost for DC path</*>
